@@ -13,7 +13,7 @@ The startup code basicall does:
 For demonstration purpose, an example application is supplied. It targets the STM32H723 MCU (Board NUCLEO-H723ZG)
 The application, led_blinker, can be compiled without any specific library or dependencies.
 You only need **GCC** (gcc-arm-none-eabi) and **make**. To build the application, cd to gcc folder and execute the make command.
-Application building will result in two binary files (ELF and raw BIN), use one of them to flash it (STM32CubeProgrammer) into target starting at address 0x80000000.
+Application building will result in two binary files (ELF and raw BIN), use one of them to flash it (STM32CubeProgrammer) into target starting at address 0x08000000.
 
 ### NOTES
 
